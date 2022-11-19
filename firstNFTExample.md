@@ -1,4 +1,4 @@
-## **The sad story of a homeless man.**
+## **The concentration of power and corruption from a homeless mans view**
 
 ### Finalized and created on 11/19/22 11:04 GMT
 
