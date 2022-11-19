@@ -64,7 +64,7 @@ Thats what I mean, with each Club can work as his own entity.
 
 A DAO solves the same problems as Club. It can set his own ruls, every member get benefits, it can work as his own entity. 
 
-The unique feature about a DAO is that its Decentralised and antomous, as the name sugessts. But lets elobrate that later.
+The unique feature about a DAO is that its Decentralised and autonomous, as the name sugessts. But lets elobrate that later.
 
 A DAO is a piece of Code, which gets ruled by the members.
 F.e. 
@@ -124,8 +124,10 @@ Back to the topic.
 
 ## Work in Progress - Frank Bevr
 
-...
-## Work in Progress - Pedro Ch
+Product vision: Limbo Dao is orientated to give a voice to that people who doesn't have the means to portrait their message to the world, we also want to give proffesionals comunicators a way to legitimaze their work and geting pay for ir, all with a social cause in mind, help the people in need from all around the world. This way we create a 'win-win' situation, where minorities can have a voice, so people all around the world can hear them, and understand the social situation this remote cominuties are living, we see this as a very important contribution to the people and socieaty in general, while using a technology we love so much, we aim to improve our abilities and knowledge so we can keep creating descentralized journalism and create a safe space for all communities to engage, social conscience, and promote free speech.
+We also take pride on the use of web3 for our applications, since this technologies allow to contrubutors(journalists, photograpers) to upload their work in a form of anonimity and still be paid, we are also giving the oportunity to low income community to be funded, and allow the social develpment of its people. 
 
-hello from pedro
+
+## Work in Progress - Pedro Ch
+ 
 
