@@ -1,4 +1,4 @@
-## **The concentration of power and corruption from a homeless mans view**
+## **The Concentration of Power and Corruption from a Homeless Mans View**
 
 ### Finalized and created on 11/19/22 11:04 GMT
 
