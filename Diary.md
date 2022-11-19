@@ -6,20 +6,20 @@ Today is the first day of the Hackathon of Filecoin.
 
 We are a team of 5. 
 Watson, who is the initator of it. 
-Pedro just started out his Tech Carrer.
-Noah is Backend Developer and sets Up with Watson the PigeonDAO, which is basicall Uber but the web3 version of it.
+Pedro just started out his Tech Career.
+Noah is a Backend Developer and Watson is a Frontend Developer, and they run PigeonDAO, which is basically Uber for packages but the web3 version.
 Steve joined in quite sponteneusly after he wrote "Looking for Group".
-There is me, Frank a Web3AR Developerm mostly developing in the Polkadot Eccosystem.
+Then there is me, Frank a Web3AR Developer mostly developing in the Polkadot Eccosystem.
 
-After the initial ceremony, we jump in our Group Discord Video Chat.
-Everyone started to telling their Stories and throw some nice Memes and jokes into the converstion. 🌤️
+After the initial ceremony, we jumped into a Group Discord Video Chat.
+Everyone started telling their Stories and throwing some nice Memes and jokes into the converstion. 🌤️
 
-Watson set up a Figma and I give a quick Introduction of where are the buttons.
+Watson set up a Figma and I give a quick Introduction of where the buttons are.
 Just to get everyone the same Page.
 
-After we had our first rectancle, we started deciding our colorshema and ohter things.
+After we had our first rectangle, we started deciding our colorshema and other things.
 
-Decision we made.
+Decisions we made.
 
   + Desktop first approach
   + Dark Design
