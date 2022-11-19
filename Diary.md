@@ -133,4 +133,4 @@ We also take pride on the use of web3 for our applications, since this technolog
 
 ## Work in Progress - Pedro Ch
  
-
+Frank edidted live
