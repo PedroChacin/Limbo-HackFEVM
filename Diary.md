@@ -104,7 +104,7 @@ Its really hard to get rid of it.
 ### What is a Data DAO
 
 Yes, that is a good Question. I am a Developer in this Space and never heard of a the word Data DAO. That means its new. But the name is already quite self explantory.
-Data can be everything. How many miles you were walking today. The tweet that you send out. The Markdown file that I am writing, right now. 
+Data can be anything. How many miles you were walking today. The tweet that you send out. The Markdown file that I am writing, right now. 
 As we already know, a DAO is a club.
 So a Data DAO has to be a Club for Dataowners.
 You are joining a Data DAO of running People.
@@ -125,8 +125,7 @@ Back to the topic.
 ## Work in Progress - Frank Bevr
 
 ...
+## Work in Progress - Pedro Ch
 
-
-
-
+hello from pedro
 
