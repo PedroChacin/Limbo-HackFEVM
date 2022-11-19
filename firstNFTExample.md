@@ -2,10 +2,10 @@
 
 ### Finalized and created on 11/19/22 11:04 GMT
 
-| Participant | Wallet Address |
-| ----------- | ----------- |
-| Journalist | 0x9999999999999999999999999999999999999999999 |
-| Story Teller | 0x11111111111111111111111111111111111111111 |
+| Participant | Name | Wallet Address |
+| ----------- | ----------- | ----------- |
+| Journalist | Frank Bevr| 0x9999999999999999999999999999999999999999999 |
+| Soul | ANON | 0x11111111111111111111111111111111111111111 |
 
 A man came to sleep in the street because of his brother. It's one of the dramas next to us. A gentleman slept in the street. So what? They will replicate many. Have you ever thought you might be in a similar situation?
 
