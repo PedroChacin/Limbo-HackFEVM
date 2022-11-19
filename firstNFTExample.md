@@ -1,9 +1,8 @@
-# **The sad story of a homeless man.**
+## **The sad story of a homeless man.**
 
-## Finalized and created on 11/19/22 11:04 GMT
+### Finalized and created on 11/19/22 11:04 GMT
 
 | Participant | Wallet Address |
-
 | ----------- | ----------- |
 | Journalist | 0x9999999999999999999999999999999999999999999 |
 | Story Teller | 0x11111111111111111111111111111111111111111 |
