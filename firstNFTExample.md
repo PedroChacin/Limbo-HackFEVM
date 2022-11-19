@@ -21,4 +21,4 @@ The man is about 38-39 years old. He worked as a driver, a good professional. Sh
 
 Is that so! The man began to sleep this summer near the cursed fence. Now the autumn arrives, their sales are empty. He'll get rheumatism. A drama, like many others. I wondered what I could offer him, a blanket, a tip to go to an empowered institution to give him protection? How does all this help a man on earth? Tonight was announced a low-temperature night. The menis warming up with dreams and maybe with the hope that someone with good soul in the area will take it and take it somewhere where it will be better and it will recover.
 
-Smart Contract - 0x8888888888888888888888888888888
+> Smart Contract - 0x8888888888888888888888888888888
