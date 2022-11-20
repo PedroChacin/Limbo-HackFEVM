@@ -5,7 +5,7 @@ html {
   overflow-x: hidden;
   position: relative;
   width: 100%;
-  height: 1639px;
+  height: 100%;
 }
 .body {
   width: 100%;
@@ -40,7 +40,7 @@ html {
   -webkit-text-fill-color: transparent;
   -webkit-transition: background-color 2s;
   transition: background-color 2s;
-  z-index: 2;
+  z-index: 9;
 }
 #limbo:hover {
   background-color: #ffffff;
@@ -53,10 +53,12 @@ iframe {
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
   border: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
 }
