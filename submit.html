@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="submit.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;400;600&display=swap"
+        rel="stylesheet">
+    <link href="favicon.png" rel='icon' type='image/x-icon' />
+
+    <title>LIMBO - Submit your story</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <a id="stories" href="stories.html">
+            STORIES
+        </a>
+        <a id="limbo" href="index.html">
+            LIMBO
+        </a>
+        <a id="project" href="project.html">
+            OUR PROJECT
+        </a>
+    </div>
+
+    <div id="warning" class="flex">
+
+        <h1 id="disclaimer">DISCLAIMER: </h1>
+        <p id="disclaimer-information">IF YOUR IDENTITY, OR HEALTH IS AT RISK FOR SHARING YOUR STORY, PLEASE WAIT UNTIL
+            YOU ARE SAFELY ABLE TO SHARE, WE ONLY USE ENCRYPTED AND DECENTRALIZED PROTOCOLS TO ENSURE YOUR SAFETY.</p>
+    </div>
+
+
+    <div class="form__group field">
+        <button>PLEASE READ AND UNDERSTAND BEFORE STARTING</button>
+        <form>
+            <input type="input" class="form__field" placeholder="NAME - " name="name" id='name' autocomplete="off" />
+
+            <input type="input" class="form__field" placeholder="PUBLIC KEY - " name="public-key" id='public-key'
+                autocomplete="off" />
+
+            <input type="input" class="form__field" placeholder="STORY TAGS - " name="story-tags" id='story-tags'
+                autocomplete="off" />
+
+
+            <textarea type="input" class="form__field story"
+                placeholder="TELL YOUR STORY - Please provide as much honest and direct information as possible"
+                name="story" id='story' autocomplete="off"></textarea>
+
+
+            <button type="submit">SUBMIT SECURELY</button>
+
+        </form>
+        <p>ONCE SUBMITTED, YOU WILL BE PROMPTED TO COMPLETE AN ADDITIONAL FORM TO MARK THE CONTENT PURPOSES OF THIS
+            STORY</p>
+
+
+    </div>
+
+
+
+</body>
+
+<!-- <script>
+    function getFormValue() {
+        const firstName = document.getElementsByName("name").value;
+        const lastName = document.getElementsByName("public-key").value;
+        console.log(firstName + lastName);
+    }
+</script> -->
+
+</html>

@@ -1,0 +1,322 @@
+html {
+  background-color: #343434;
+  font-family: "Bebas Neue", cursive;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  height: 1639px;
+}
+
+#submit,
+#project {
+  animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#submit,
+#project,
+#limbo :hover {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 25%;
+  color: rgb(109, 104, 104);
+  height: 145px;
+  left: 96px;
+  top: 7px;
+}
+
+#submit {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.035em;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: inherit;
+  text-decoration: none;
+}
+#submit:hover {
+  color: #ffffff;
+}
+
+#limbo {
+  height: 145px;
+
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Gradient */
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    297deg,
+    rgba(255, 255, 255, 0.29735644257703087) 0%,
+    rgba(56, 54, 54, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#limbo:hover {
+  background-color: #ffffff;
+}
+
+#project {
+  height: 43px;
+
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.035em;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  color: inherit;
+}
+
+#project:hover {
+  color: #ffffff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+li {
+  margin-top: 7.5%;
+  display: flex;
+  list-style: none;
+}
+
+ul {
+  color: white;
+  border: 10px;
+  padding: 5px 5px 5px 5px;
+  transition: font-size 0.3s ease-out;
+}
+
+ul:hover {
+  font-size: 22pt;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    297deg,
+    rgba(255, 255, 255, 0.29735644257703087) 0%,
+    rgba(56, 54, 54, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: font-size 0.7s ease-out;
+  cursor: pointer;
+}
+.grid-wrapper {
+  margin-top: 60px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: [col1-start] 33% [col2-start] 33% [col3-start] 33% [col3-end];
+  grid-template-rows: [row1-start] auto [row2-start] auto [row2-end] auto [row3-start] auto [row3-end] auto [row4-start] auto;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  transition: opacity 0.3s ease-out, font-size 0.3s ease-out;
+  opacity: 1;
+}
+
+.box:hover {
+  opacity: 0.6;
+  font-size: 170%;
+  cursor: pointer;
+}
+
+.content-container {
+  background: linear-gradient(
+    243.2deg,
+    rgba(69, 74, 222, 0.45) 19.17%,
+    #da416773 91.59%
+  );
+  /* Neutral/Black */
+
+  border: 1px solid #343434;
+  box-shadow: 0px 4px 24px -1px rgba(52, 52, 52, 0.25);
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 5px;
+}
+.a {
+  grid-column: col1-start / col3-start;
+  grid-row: row1-start;
+}
+.b {
+  grid-column: col3-start;
+  grid-row: row1-start / row2-end;
+}
+.c {
+  grid-column: col1-start;
+  grid-row: row2-start;
+}
+.d {
+  grid-column: col2-start;
+  grid-row: row2-start;
+}
+.e {
+  grid-column: col1-start / col3-end;
+  grid-row: row3-start;
+}
+.f {
+  grid-column: col2-start / col3-end;
+  grid-row: row4-start;
+}
+
+.nft-title {
+  left: 0px;
+  top: 0px;
+  margin: 0;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 52px;
+  display: flex;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    297deg,
+    rgba(230, 230, 230, 0.297) 0%,
+    rgb(202, 202, 202) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nft-journalist {
+  left: 0px;
+  top: 0px;
+  margin: 0;
+  font-family: "Bebas Neue";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 36;
+  display: flex;
+  letter-spacing: -0.02em;
+  color: #cecece;
+}
+#journalist-name {
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+}
+#journalist-wallet {
+  margin-left: 5px;
+  color: rgb(212, 212, 212);
+}
+.nft-soul {
+  left: 0px;
+  top: 0px;
+  margin: 0;
+  font-family: "Bebas Neue";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 36;
+  display: flex;
+  letter-spacing: -0.02em;
+  color: #a0a0a0;
+}
+#soul-name {
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+}
+#soul-wallet {
+  margin-left: 5px;
+  color: rgb(212, 212, 212);
+}
+
+@media screen and (max-width: 1025px) {
+  body {
+    width: 100%;
+  }
+
+  li {
+    display: none;
+  }
+  #journalist-wallet {
+    display: none;
+  }
+  .nft-journalist {
+    display: none;
+  }
+  .nft-soul {
+    display: none;
+  }
+  #soul-wallet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 310px) and (max-width: 768px) {
+  html {
+    width: 200%;
+  }
+  body {
+    width: 100%;
+  }
+}
