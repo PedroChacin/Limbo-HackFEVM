@@ -1,5 +1,9 @@
 ﻿## Limbo-HackFEVM
 
+> Notes: (After presentation)
+> We presented with Google Slides. We showcased with Remix. We had Issues that we couldnt solve quickly. 
+> If redeployed on Remix, remember that emit's don't work right now. 
+
 ### Inspiration
 
 Creating hope for the individuals in dire circumstances
