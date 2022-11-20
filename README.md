@@ -37,11 +37,11 @@ Front and Backend is not Connected, but thats ok :D
 
 Everyone of us has their own goal. 
 
-[x] - Frank = Play with Foundry & Glassmorphism design. 
-[x] - Steve = Learn more about Web3 and the inner workings
-[x] - Pedro = Get more familar with a regular Dev Workflow
-[x] - Watson = Draft Limbo in a quick manner. Is in his pipeline for Months.
-[x] - Noah = Play around with FEVM and their deployment Structure.
+- [x]  Frank = Play with Foundry & Glassmorphism design. 
+- [x]  Steve = Learn more about Web3 and the inner workings
+- [x]  Pedro = Get more familar with a regular Dev Workflow
+- [x]  Watson = Draft Limbo in a quick manner. Is in his pipeline for Months.
+- [x]  Noah = Play around with FEVM and their deployment Structure.
 
 Everyone could reach their goal in some Sense. 
 
