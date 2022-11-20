@@ -1,0 +1,116 @@
+html {
+  background-color: #343434;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Bebas Neue", cursive;
+  overflow-x: hidden;
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 843px;
+}
+
+#stories,
+#submit,
+#project {
+  color: rgb(109, 104, 104);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.035em;
+  animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  -o-animation: fadeIn 7s;
+  -ms-animation: fadeIn 7s;
+  cursor: pointer;
+  text-decoration: none;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#stories {
+  position: absolute;
+  width: 100%;
+  height: 43px;
+  left: 116px;
+  top: 270px;
+  margin-bottom: 40px;
+  text-decoration-line: underline;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+#stories:hover {
+  color: #ffffff;
+}
+
+#submit {
+  position: absolute;
+  width: 100%;
+  height: 43px;
+  left: 116px;
+  top: 344px;
+  margin-bottom: 40px;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+#submit:hover {
+  color: #ffffff;
+}
+
+#project {
+  position: absolute;
+  width: 100%;
+  height: 43px;
+  left: 116px;
+  top: 418px;
+  margin-bottom: 40px;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+#project:hover {
+  color: #ffffff;
+}
+
+#limbo {
+  position: absolute;
+  width: 500px;
+  height: 145px;
+  left: 50%;
+  top: 25%;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 173px;
+
+  letter-spacing: -0.02em;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    297deg,
+    rgba(255, 255, 255, 0.29735644257703087) 0%,
+    rgba(56, 54, 54, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+#limbo:hover {
+  background-color: #ffffff;
+}

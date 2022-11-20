@@ -1,0 +1,283 @@
+html {
+  background-color: #343434;
+
+  font-family: "Bebas Neue", cursive;
+  overflow-x: hidden;
+}
+.body {
+  position: relative;
+  width: 1440px;
+  height: 1639px;
+}
+
+#stories,
+#project {
+  animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#stories,
+#project,
+#limbo :hover {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 25%;
+  color: rgb(109, 104, 104);
+  position: absolute;
+  width: 100%;
+  height: 145px;
+  left: 96px;
+  top: 7px;
+}
+
+#stories {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.035em;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: inherit;
+}
+#stories:hover {
+  color: #ffffff;
+}
+
+#limbo {
+  height: 145px;
+
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Gradient */
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    297deg,
+    rgba(255, 255, 255, 0.29735644257703087) 0%,
+    rgba(56, 54, 54, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#limbo:hover {
+  background-color: #ffffff;
+}
+
+#project {
+  height: 43px;
+
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.035em;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  color: inherit;
+}
+
+#project:hover {
+  color: #ffffff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+#warning {
+  margin-top: 7%;
+  background: rgba(180, 75, 75, 0.342);
+}
+
+#disclaimer {
+  margin-left: 10%;
+  color: rgb(180, 75, 75);
+  font-weight: 400;
+  font-size: x-large;
+}
+
+#disclaimer-information {
+  margin-left: 10px;
+  color: rgb(189, 90, 90);
+  font-weight: 400;
+  font-size: larger;
+}
+
+/* form {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+}
+label {
+  display: block;
+  color: white;
+  margin-left: 10px;
+  margin-top: 2%;
+  font-size: x-large;
+}
+legend {
+  display: block;
+  color: white;
+  margin-left: 10px;
+  margin-top: 2%;
+  font-size: x-large;
+}
+
+input {
+  background: transparent;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 95%;
+  border: none;
+  border-bottom: 2px solid rgb(153, 153, 153);
+} */
+
+.form__group {
+  font-family: "Inter";
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 75%;
+  margin-left: 15%;
+}
+input {
+  margin-top: 30px;
+}
+.form__field {
+  font-family: "Inter";
+
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+  padding-bottom: 2px;
+}
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #df7272, #e73636);
+  border-image-slice: 1;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+}
+
+button {
+  background-color: rgb(22, 22, 22);
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  transition: opacity 0.6s ease-in-out, background-color 0.6s ease-in-out;
+}
+
+button:hover,
+button:focus {
+  opacity: 0.75;
+  color: black;
+  background: rgb(255, 255, 255);
+}
+
+.story {
+  height: 250px;
+}
+p {
+  color: white;
+}
