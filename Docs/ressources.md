@@ -12,7 +12,9 @@
 [Glassmorphism Tutorial](https://www.youtube.com/watch?v=O7WbVj5apxU)\
 [Glassmorphism Tutorial - GithubRep](https://github.com/developedbyed/glass-website)\
 [Set Up Foundry](https://ethereum-blockchain-developer.com/2022-06-nft-truffle-hardhat-foundry/14-foundry-setup/)\
-[Goerli Eth](https://faucets.chain.link/)
+[Goerli Eth](https://faucets.chain.link/)\
+[MarkdownCheatSheed](https://www.markdownguide.org/cheat-sheet/)/
+[DeploySmartContract](https://docs.zondax.ch/fevm/fevm-solidity-mock-api/deploy-it)
 
 ### Going thruh Discord
 
@@ -38,4 +40,8 @@
 [LimboSlidesGoogleDocs](https://docs.google.com/presentation/d/1VmBlN5aOsRynnAg_DdapafWwxlfNHnEjnVId20Q2vgQ/edit#slide=id.gfd5138720393052_0)\
 [MainRepository](https://github.com/PedroChacin/Limbo-HackFEVM)\
 [PublicURL](https://ethglobal.com/showcase/undefined-wjps4)\
-[GitHubProjectsPage](https://github.com/users/P1SMT/projects/1)
+[GitHubProjectsPage](https://github.com/users/P1SMT/projects/1)\
+[IPFS.Diary1](https://ipfs.io/ipfs/QmYxGRBfLLyvF2uBHWYiYacAUbaauXyJGxFHHyqrCv7KdB?filename=Diary-1.html)\
+[IPFS.Diary2](https://ipfs.io/ipfs/QmZ98bLee2jvMf6GeZBVuW5k4KnLwLmkp1G3tpXAEDMjkr?filename=Diary-2.html)\
+[IPFS.Diary3](https://ipfs.io/ipfs/QmdzbwunF2wtbGVyVAfZWAcCqeeTd53GLRnHWKokkrS9sv?filename=Diary-3.html)
+
