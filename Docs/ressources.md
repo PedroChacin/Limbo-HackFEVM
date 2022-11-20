@@ -12,7 +12,7 @@
 [Glassmorphism Tutorial](https://www.youtube.com/watch?v=O7WbVj5apxU)\
 [Glassmorphism Tutorial - GithubRep](https://github.com/developedbyed/glass-website)\
 [Set Up Foundry](https://ethereum-blockchain-developer.com/2022-06-nft-truffle-hardhat-foundry/14-foundry-setup/)\
-[Goerli Eth](https://faucets.chain.link/)\
+[Goerli Eth](https://faucets.chain.link/)
 
 ### Going thruh Discord
 
@@ -30,4 +30,12 @@
 [WatsonAskingQuestions](./WatsonAskingQuestions.md)\
 [WatsonBrainDumbOfPresentation](./WatsonBrainDumbOfPresentation.md)\
 [FrankPedroJulianWhatWeAreDoing](./FrankPedroJulianWhatWeAreDoing.md)\
-[NoahSolOnFileYT](https://www.youtube.com/watch?v=IOcaMaxiEYw)\
+[NoahSolOnFileYT](https://www.youtube.com/watch?v=IOcaMaxiEYw)
+
+#### HackFEVN
+[HackFEVNtv](https://ethglobal.tv/hackfevm-opening-ceremony-zjodf)\
+[FigmaFile](https://www.figma.com/file/QrZVocHLWPcRigUymCbNOB/Limbo?node-id=0%3A1&t=urYmnrELfulhHUi8-1)\
+[LimboSlidesGoogleDocs](https://docs.google.com/presentation/d/1VmBlN5aOsRynnAg_DdapafWwxlfNHnEjnVId20Q2vgQ/edit#slide=id.gfd5138720393052_0)\
+[MainRepository](https://github.com/PedroChacin/Limbo-HackFEVM)\
+[PublicURL](https://ethglobal.com/showcase/undefined-wjps4)\
+[GitHubProjectsPage](https://github.com/users/P1SMT/projects/1)
